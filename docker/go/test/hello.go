@@ -7,15 +7,18 @@ package main
 // For input and output
 import "fmt"
 
+/*
+Compile -> go build hello.go
+Compile and Run -> go run hello.go
+*/
+
 func main() {
 	fmt.Println("Hello World.")
 
 	//var name string = "Hizuru"
 	//var name = "Hizuru"
 	name := "Hizuru"
+	fmt.Printf("Hello %v\n", name)
+	fmt.Printf("Hello %v again!\n", name)
 }
 
-/*
-Compile -> go build hello.go
-Compile and Run -> go run hello.go
-*/
